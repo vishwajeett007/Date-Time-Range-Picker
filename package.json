@@ -10,6 +10,7 @@
     "format": "prettier --write \"src/**/*.{ts,tsx,css}\"",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "preview-storybook": "npm run build-storybook && npx serve storybook-static",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:a11y": "axe-storybook-test",
